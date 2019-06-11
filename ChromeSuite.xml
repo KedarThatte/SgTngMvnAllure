@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Chrome Browser Suite" preserve-order="true" >
+
+    <test name = "Normal User Flow Test">
+        <parameter name = "browser" value = "chrome"/>
+        <parameter name="usertype" value="normal"></parameter>
+        <classes>
+            <class name ="org.sgtngmvnallure.normal.NormalUserFlowTest"/>
+        </classes>
+    </test>
+
+    <test name = "Admin User Flow Test">
+        <parameter name = "browser" value = "chrome"/>
+        <parameter name="usertype" value="admin"></parameter>
+        <classes>
+            <class name ="org.sgtngmvnallure.admin.AdminFlowTest"/>
+        </classes>
+    </test>
+
+
+
+</suite>

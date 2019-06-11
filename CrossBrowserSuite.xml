@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Cross Browser Suite" parallel="tests" thread-count="4" >
+
+    <suite-files>
+        <suite-file path="ChromeSuite.xml"></suite-file>
+        <suite-file path="FirefoxSuite.xml"></suite-file>
+        <!--<suite-file path="SafariSuite.xml"></suite-file>-->
+        <!--<suite-file path="OperaSuite.xml"></suite-file>-->
+        <!--<suite-file path="EdgeSuite.xml"></suite-file>-->
+    </suite-files>
+
+
+</suite>
